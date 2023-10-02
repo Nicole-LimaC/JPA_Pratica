@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-12T19:43:40.708917300Z</date>
+  <millis>1694547820708</millis>
+  <nanos>917300</nanos>
+  <sequence>11</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.CategoriaDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+A categoria 'Ação' foi criada na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.711912200Z</date>
+  <millis>1694547820711</millis>
+  <nanos>912200</nanos>
+  <sequence>12</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.CategoriaDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+A categoria 'Comédia' foi criada na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.713876600Z</date>
+  <millis>1694547820713</millis>
+  <nanos>876600</nanos>
+  <sequence>13</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.EditoraDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+A editora 'Aleph' foi criada na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.715870600Z</date>
+  <millis>1694547820715</millis>
+  <nanos>870600</nanos>
+  <sequence>14</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.EditoraDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+A editora 'Rocco' foi criada na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.717865900Z</date>
+  <millis>1694547820717</millis>
+  <nanos>865900</nanos>
+  <sequence>15</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.AutorDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+O autor 'Lucas Lschlestein' foi criada na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.718863200Z</date>
+  <millis>1694547820718</millis>
+  <nanos>863200</nanos>
+  <sequence>16</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.AutorDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+O autor 'André Santos' foi criada na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.723854500Z</date>
+  <millis>1694547820723</millis>
+  <nanos>854500</nanos>
+  <sequence>17</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.LivroDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+O Livro{id=1, ISBN=123456789, titulo='Harry Potter', ano=1999, categoria=model.Categoria@44fdce3c, editora=model.Editora@67536ae0} foi criado na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.725857200Z</date>
+  <millis>1694547820725</millis>
+  <nanos>857200</nanos>
+  <sequence>18</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.LivroDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+O Livro{id=2, ISBN=15198487, titulo='Pior que tá não fica', ano=2015, categoria=model.Categoria@1f939a0f, editora=model.Editora@17b37e9a} foi criado na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.726841700Z</date>
+  <millis>1694547820726</millis>
+  <nanos>841700</nanos>
+  <sequence>19</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.LivroDAO</class>
+  <method>cadastrar</method>
+  <thread>1</thread>
+  <message>
+O Livro{id=3, ISBN=15198487, titulo='O Espadachim de carvão', ano=2010, categoria=model.Categoria@44fdce3c, editora=model.Editora@17b37e9a} foi criado na base de dados!
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.807831100Z</date>
+  <millis>1694547820807</millis>
+  <nanos>831100</nanos>
+  <sequence>20</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.LivroDAO</class>
+  <method>atualizar</method>
+  <thread>1</thread>
+  <message>
+Livro de id: 1 teve seu título atualizado para: 'Senhor dos Anéis'
+</message>
+</record>
+<record>
+  <date>2023-09-12T19:43:40.810823400Z</date>
+  <millis>1694547820810</millis>
+  <nanos>823400</nanos>
+  <sequence>21</sequence>
+  <logger>Teste Log</logger>
+  <level>INFO</level>
+  <class>dao.LivroDAO</class>
+  <method>remover</method>
+  <thread>1</thread>
+  <message>
+O Livro{id=1, ISBN=123456789, titulo='Senhor dos Anéis', ano=1999, categoria=model.Categoria@44fdce3c, editora=model.Editora@67536ae0} foi excluído na base de dados!
+</message>
+</record>
+</log>
